@@ -1,0 +1,12 @@
+
+{
+    "type":"object",
+    "properties":{
+        "string-7":{
+            "type":"string",
+            "default":"Erkek",
+            "description":"Enter Description",
+            "example":"Erkek"
+        }
+    }
+}

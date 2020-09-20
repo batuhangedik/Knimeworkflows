@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="naivebayesDataModel">
+<entry key="ClassColumnName" type="xstring" value="feed"/>
+<config key="ClassColumnType">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="Threshold" type="xdouble" value="0.0"/>
+<config key="SkippedAttributes">
+<entry key="SkippedAttributesCounter" type="xint" value="0"/>
+</config>
+<config key="AttributeModelSection">
+<entry key="AttributeModelCounter" type="xint" value="3"/>
+<config key="AttributeModelData_0">
+<entry key="attributeName" type="xstring" value="id"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="6"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="soybean"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="4"/>
+<entry key="sum" type="xdouble" value="117.0"/>
+<entry key="squareSum" type="xdouble" value="3477.0"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="linseed"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="4"/>
+<entry key="sum" type="xdouble" value="63.0"/>
+<entry key="squareSum" type="xdouble" value="1047.0"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="casein"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="3"/>
+<entry key="sum" type="xdouble" value="197.0"/>
+<entry key="squareSum" type="xdouble" value="12987.0"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="horsebean"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="3"/>
+<entry key="sum" type="xdouble" value="12.0"/>
+<entry key="squareSum" type="xdouble" value="66.0"/>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="sunflower"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="4"/>
+<entry key="sum" type="xdouble" value="171.0"/>
+<entry key="squareSum" type="xdouble" value="7365.0"/>
+</config>
+<config key="classValueData_5">
+<entry key="classValue" type="xstring" value="meatmeal"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="3"/>
+<entry key="sum" type="xdouble" value="164.0"/>
+<entry key="squareSum" type="xdouble" value="8990.0"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_1">
+<entry key="attributeName" type="xstring" value="weight"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="6"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="soybean"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="4"/>
+<entry key="sum" type="xdouble" value="967.0"/>
+<entry key="squareSum" type="xdouble" value="244497.0"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="linseed"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="4"/>
+<entry key="sum" type="xdouble" value="842.0"/>
+<entry key="squareSum" type="xdouble" value="196802.0"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="casein"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="3"/>
+<entry key="sum" type="xdouble" value="1040.0"/>
+<entry key="squareSum" type="xdouble" value="363448.0"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="horsebean"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="3"/>
+<entry key="sum" type="xdouble" value="514.0"/>
+<entry key="squareSum" type="xdouble" value="95234.0"/>
+</config>
+<config key="classValueData_4">
+<entry key="classValue" type="xstring" value="sunflower"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="4"/>
+<entry key="sum" type="xdouble" value="1294.0"/>
+<entry key="squareSum" type="xdouble" value="420030.0"/>
+</config>
+<config key="classValueData_5">
+<entry key="classValue" type="xstring" value="meatmeal"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="3"/>
+<entry key="sum" type="xdouble" value="910.0"/>
+<entry key="squareSum" type="xdouble" value="279314.0"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_2">
+<entry key="attributeName" type="xstring" value="feed"/>
+<entry key="type" type="xstring" value="ClassModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="totalNoOfRecords" type="xint" value="21"/>
+<entry key="maxNoOfClassValues" type="xint" value="165"/>
+<config key="classValues">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="horsebean"/>
+<entry key="1" type="xstring" value="linseed"/>
+<entry key="2" type="xstring" value="soybean"/>
+<entry key="3" type="xstring" value="sunflower"/>
+<entry key="4" type="xstring" value="meatmeal"/>
+<entry key="5" type="xstring" value="casein"/>
+</config>
+<config key="classRecordCounter">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xint" value="3"/>
+<entry key="1" type="xint" value="4"/>
+<entry key="2" type="xint" value="4"/>
+<entry key="3" type="xint" value="4"/>
+<entry key="4" type="xint" value="3"/>
+<entry key="5" type="xint" value="3"/>
+</config>
+</config>
+</config>
+</config>
+</config>
